@@ -34,7 +34,7 @@ Corresponding script can be found in `stats.py`.
 
 ## ANOVA to check for bias in distribution of the group’s responses
 
-The third script, `anova.py` tests whether the different job roles and place of employment are providing statistically different responses. The null hypothesis states that the perceptions about the relevance of each indicator do not vary as a function of the panelist group and place of employment (this information was gathered via survey together with responses).
+The third script that contains ANOVA tests whether the different job roles and place of employment are providing statistically different responses. The null hypothesis states that the perceptions about the relevance of each indicator do not vary as a function of the panelist group and place of employment (this information was gathered via survey together with responses).
   
 Corresponding script can be found in `anova.py`.  
 
