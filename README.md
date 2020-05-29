@@ -1,5 +1,7 @@
 # Modified Fuzzy Delphi Method with Optimized Consistency Aggregation Method
 
+## Consistency Aggregation Method
+
 Implementation of Modified Fuzzy Delphi Method with Optimized Consistency Aggregation Method (CAM). This script can be used to aggregate experts opinions on ranking of defined items based on conducted questionary survey. Survey is expected to be a list of questions with next answer options: 
 * 'Strongly agree'
 * 'Agree'
@@ -15,9 +17,10 @@ Script generates two numeric values and single boolean value for each item. Next
 * *'Consensus'* is obtained conensus rate;
 * *'Verdict'* is verdict ("Retained" / "Discarder") based on `S` threshold value.
 
-
 Script for CAM algorithm can be found in `cam.py`.   
-  
+
+## Statistical testing to ensure convergence
+
 There is second script presented which helps evaluate stability and convergence of obtained group opinions and consensus rates for each item.  
   
 Next statistical tests are used:
