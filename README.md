@@ -20,7 +20,7 @@ Script generates two numeric values and single boolean value for each item. Next
 Script for CAM algorithm can be found in `cam.py`.   
 
 ## Statistical testing to ensure convergence
-
+ 
 There is second script presented which helps evaluate stability and convergence of obtained group opinions and consensus rates for each item.  
   
 Next statistical tests are used:
@@ -28,9 +28,15 @@ Next statistical tests are used:
 * Median test;
 * Kruskal-Wallis test;
 
-*p-value* of *0.05* is used as a threshold for accepting/rejecting null-hypothesis in all tests.
+*p-value* of *0.05* is used as a threshold for accepting/rejecting null hypothesis in all tests.
   
 Corresponding script can be found in `stats.py`.   
+
+## ANOVA to check for bias in distribution of the group’s responses
+
+The third script, `anova.py` tests whether the different job roles and place of employment are providing statistically different responses. The null hypothesis states that the perceptions about the relevance of each indicator do not vary as a function of the panelist group and place of employment (this information was gathered via survey together with responses).
+  
+Corresponding script can be found in `anova.py`.  
 
 # License
 MIT
