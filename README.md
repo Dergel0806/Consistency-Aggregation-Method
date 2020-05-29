@@ -28,7 +28,7 @@ Next statistical tests are used:
 * Median test;
 * Kruskal-Wallis test;
 
-$p-value$ of $0.05$ is used as a threshold for accepting/rejecting null-hypothesis in all tests.
+*p-value* of *0.05* is used as a threshold for accepting/rejecting null-hypothesis in all tests.
   
 Corresponding script can be found in `stats.py`.   
 
